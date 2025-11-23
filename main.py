@@ -3,49 +3,73 @@ import threading
 import time
 import queue
 
-class Main:
-    def producent(queue):
-        print("Producent komponent začal")
 
-        komponenty = ["C1", "C2", "C3"]
+def dodavatel(queue_komponent):
+    print("Producent komponent začal")
 
-        while True:
-            for komponent in komponenty:
-                queue.put(komponent)
-                print(f"Dodani komponentu: {komponent}")
-                time.sleep(0.3)
+    komponenty = ["K1", "K2", "K3"]
 
-    def konzument(queue):
-        vyrobeno = 0
+    #kontrola plnosti skladu
+    while True:
+        for komponent in komponenty:
+            if queue_komponent.full():
+                while queue_komponent.full():
+                    time.sleep(0.2)
 
-        while True:
-            komponent = queue.get()
+            queue_komponent.put(komponent)
+            print(f"Dodani komponentu: {komponent}")
+            time.sleep(0.2) #Vyroba
 
-            if komponent is None:
-                break
+def vyroba(queue_komponent, queue_finished):
+    while True:
+        komponent = queue_komponent.get()
+        print(f"Prijat komponent: {komponent}")
 
-            print(f"Prijeto komponentu: {komponent}")
-            time.sleep(0.7)  # simulace výroby
+        time.sleep(1)
 
-            zarizeni = f"Device-{komponent}"
-            vyrobeno += 1
+        product = f"Device-{komponent}"
 
-            print(f"Vyrobeno zarizeni: {zarizeni} (celkem kusu: {vyrobeno})")
+        if queue_finished.full():
+            print('Sklad na hotove vyrobky plny')
+            while queue_finished.full():
+                time.sleep(0.2)
 
-            # Po vyrobení 10 zařízení ukončíme proces
-            if vyrobeno >= 10:
-                queue.put(None)
-                break
+        queue_finished.put(product)
 
-        print("Konec vyroby")
+def shop(queue_products, shop_capacity):
+    sold = 0
+    sklad = []
 
-    if __name__ == "__main__":
-        queue = queue.Queue()
+    while True:
+        product = queue_products.get()
 
-        t_producent = threading.Thread(target=producent, args=(queue,))
-        t_konzument = threading.Thread(target=konzument, args=(queue,))
+        if len(sklad) >= shop_capacity:
+            while len(sklad) >= shop_capacity:
+                time.sleep(0.2)
 
-        t_konzument.start()
-        t_producent.start()
+        sklad.append(product)
+        time.sleep(2)
+        sklad.pop()
+        sold += 1
 
-        t_konzument.join()
+        queue_products.task_done()
+        if sold >= 10:
+            print('Dosazena denni kapacita obchodu')
+            break
+
+
+
+if __name__ == "__main__":
+    komponent = queue.Queue(maxsize=5)
+    finished_product = queue.Queue(maxsize=5)
+    shop_capacity = 3
+
+    vyrobce_komponent = threading.Thread(target=dodavatel, args=(komponent,))
+    produkce_Vyrobku = threading.Thread(target=vyroba, args=(komponent, finished_product,))
+    obchod = threading.Thread(target=shop, args=(finished_product, shop_capacity,))
+
+    vyrobce_komponent.start()
+    produkce_Vyrobku.start()
+    obchod.start()
+
+    obchod.join()
