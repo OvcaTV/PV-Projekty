@@ -49,6 +49,7 @@ def shop(queue_products, shop_capacity):
 
         sklad.append(product)
         time.sleep(2)
+        print(f'\nProdan produkt: {product}\n')
         sklad.pop()
         sold += 1
 
@@ -60,9 +61,9 @@ def shop(queue_products, shop_capacity):
 
 
 if __name__ == "__main__":
-    komponent = queue.Queue(maxsize=5)
-    finished_product = queue.Queue(maxsize=5)
-    shop_capacity = 3
+    komponent = queue.Queue(maxsize=1)
+    finished_product = queue.Queue(maxsize=1)
+    shop_capacity = 1
 
     vyrobce_komponent = threading.Thread(target=dodavatel, args=(komponent,))
     produkce_Vyrobku = threading.Thread(target=vyroba, args=(komponent, finished_product,))
