@@ -12,17 +12,16 @@ ULM: [ULM](PV-ULM.drawio)
 **Popis běhu aplikace:** 
 ULM: [ULM](PV-ULM.drawio)
 
-**License**  
-License: [LICENSE](LICENSE)
+**License:** [LICENSE](LICENSE)
 
-**Konfigurace**
+**Konfigurace**  
 Staci spustit v (snad) jakemkoli vyvojovém prostředí pracujícím s jazykem Python
 
-**Instalace a spuštění**
+**Instalace a spuštění**  
 Stažení .zip souboru z main branche, nasledne spuštení ve vyvojovém prostření s jazykem Python
 
-**Chybové stavy**
+**Chybové stavy**  
 Uživatel nastavil v kódu velikost queries na 0, nebo nastavil kapacitu skladu obchodu na 0. Řešení: Změnit na hodnoty >= 1
 
-**Způsobu ověření, testování a validace**
+**Způsobu ověření, testování a validace:**
 Spustil jsem program v 1:30 a fungoval bez problémů. Za mě dostatečně dobrý
