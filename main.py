@@ -18,7 +18,6 @@ path = "C:\\Users\\hryma\\Downloads"
 removeFolder = True
 findEmpty = emptyFileFinder(path, removeFolder)
 
-
 print("Prazdne slozky:")
 for slozka in findEmpty:
     print(slozka)
