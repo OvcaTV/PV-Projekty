@@ -1,8 +1,8 @@
 import os
 
-def emptyFileFinder(cesta, removeFolder):
+def emptyFileFinder(path, removeFolder):
     empty = []
-    for root, dirs, files in os.walk(cesta, topdown=False):
+    for root, dirs, files in os.walk(path, topdown=False):
         if not dirs and not files:
             empty.append(root)
 
@@ -14,13 +14,18 @@ def emptyFileFinder(cesta, removeFolder):
     return empty
 
 
-path = "C:\\Users\\hryma\\Downloads"
-removeFolder = True
-findEmpty = emptyFileFinder(path, removeFolder)
-
-print("Prazdne slozky:")
-for slozka in findEmpty:
-    print(slozka)
 
 if __name__ == "__main__":
-    print("")
+    path = input('Zadej cestu pro hledani prazdnych slozek: ').strip()
+    removeFolder = False
+
+    if not os.path.isdir(path):
+        print("To neni platna cesta")
+    else:
+        findEmpty = emptyFileFinder(path, removeFolder)
+
+        print("\nPrazdne slozky:")
+        for slozka in findEmpty:
+            print(slozka)
+
+        print("\nKonec.")
