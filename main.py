@@ -17,10 +17,13 @@ def emptyFileFinder(path, removeFolder):
 
 if __name__ == "__main__":
     path = input('Zadej cestu pro hledani prazdnych slozek: ').strip()
-    removeFolder = False
+
+    removeFolder = input(f"Chceš smazat prázdré složky z {path}?").strip().lower()
+
+    isRemoveFolder = removeFolder in ("true", "yes", "ano", "y")
 
     if not os.path.isdir(path):
-        print("To neni platna cesta")
+        print("Neplatna cesta.")
     else:
         findEmpty = emptyFileFinder(path, removeFolder)
 
