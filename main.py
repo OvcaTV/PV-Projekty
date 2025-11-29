@@ -18,7 +18,7 @@ def emptyFileFinder(path, removeFolder):
 if __name__ == "__main__":
     path = input('Zadej cestu pro hledani prazdnych slozek: ').strip()
 
-    removeFolder = input(f"Chceš smazat prázdré složky z {path}?").strip().lower()
+    removeFolder = input(f"Chceš smazat prázdré složky z {path}? ").strip().lower()
 
     isRemoveFolder = removeFolder in ("true", "yes", "ano", "y")
 
