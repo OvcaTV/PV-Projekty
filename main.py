@@ -2,7 +2,7 @@ import os
 
 def emptyFileFinder(path, removeFolder):
     empty = []
-    for root, dirs, files in os.walk(path, topdown=False):
+    for root, dirs, files in os.walk(path):
         if not dirs and not files:
             empty.append(root)
 
@@ -25,7 +25,7 @@ if __name__ == "__main__":
     if not os.path.isdir(path):
         print("Neplatna cesta.")
     else:
-        findEmpty = emptyFileFinder(path, removeFolder)
+        findEmpty = emptyFileFinder(path, isRemoveFolder)
 
         print("\nPrazdne slozky:")
         for slozka in findEmpty:
