@@ -28,10 +28,27 @@ if __name__ == "__main__":
     if not os.path.isdir(path):
         print("Neplatna cesta.")
     else:
-        findEmpty = emptyFileFinder(path, isRemoveFolder)
+        findEmpty = emptyFileFinder(path, False)
 
         print("\nPrazdne slozky:")
         for slozka in findEmpty:
             print(slozka)
+
+        if not findEmpty:
+            print("\nŽádné prázdné složky nebyly nalezeny.")
+            logging.info("Nenalezeny žádné prázdné složky.")
+            print("\nKonec.")
+
+        else:
+            if isRemoveFolder:
+                potvrzeni = input("\n Chystas se smazat vsechny slozky vyse. Opravdu si to prejes? (y/n): ").strip().lower()
+
+                if potvrzeni in ("ano", "yes", "y", "true"):
+                    logging.info("Uživatel potvrdil mazání.")
+                    findEmpty = emptyFileFinder(path, isRemoveFolder)
+                    print("\nSložky byly smazány.")
+                else:
+                    logging.info("Uživatel zrušil mazání.")
+                    print("\nMazání zrušeno uživatelem.")
 
         print("\nKonec.")
