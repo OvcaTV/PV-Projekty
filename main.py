@@ -8,11 +8,11 @@ if __name__ == "__main__":
     except Exception as e:
         print("Chyba připojení:", e)
 
-    from dao import ProductDAO
-    from dao import ProductionOrderDAO
+    from produktManagement import ProductDAO
+    from objednaniProdukce import ProductionOrder
 
     product_dao = ProductDAO()
-    order_dao = ProductionOrderDAO()
+    order_dao = ProductionOrder()
 
     product_dao.insert("Copper Sheet", 8.4)
 
