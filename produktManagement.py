@@ -1,6 +1,6 @@
 from dao import DAO
 
-class ProductDAO(DAO):
+class Product(DAO):
 
     def get_all(self):
         self.cursor.execute(

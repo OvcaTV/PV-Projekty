@@ -1,8 +1,8 @@
-from config import get_connection
+from config import connect
 
 class DAO:
     def __init__(self):
-        self.connect = get_connection()
+        self.connect = connect()
         self.cursor = self.connect.cursor()
 
     def close(self):

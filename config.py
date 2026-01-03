@@ -2,7 +2,7 @@ import configparser
 import pyodbc
 
 
-def get_connection():
+def connect():
     config = configparser.ConfigParser()
     config.read("config.ini")
 
