@@ -7,7 +7,7 @@ You should start by creating database from files in SQL Scripts folder. There yo
 create database PythonEvidence;
 ```
   
-then run script DatabaseCreate, then script Database-inserts, then try running Database-View1 script. It it outputs error, try creating a new query directly on the database by right-clicking on new database and copy the contents of Database-user into your new query. Then do the same for Database-View2 and Database-user.
+then run script DatabaseCreate, then script Database-inserts, then try running Database-View1 script. It it outputs error, try creating a new query directly on the you just created (it should be called PythonEvidence. If you don't see it try refreshing the database) database by right-clicking on new database and copy the contents of Database-user into your new query. Then do the same for Database-View2 and Database-user.
 In the end, you should end up with database diagram looking like this:  
 
 <img width="972" height="900" alt="obrazek" src="https://github.com/user-attachments/assets/583cca0e-3155-42de-9bfe-30faad11aaa5" />
