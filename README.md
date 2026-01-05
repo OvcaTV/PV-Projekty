@@ -1,8 +1,12 @@
 # A hitchhiker's guide to this project's instalation  
   
 ## 1. Create database in Microsoft SQL Server Management Studio  
-You should start by creating database from files in SQL Scripts folder. There you should start with  
-create database PythonEvidence;  
+You should start by creating database from files in SQL Scripts folder. There you should start with
+  
+'''
+create database PythonEvidence;
+'''
+  
 then run script DatabaseCreate, then script Database-inserts, then try running Database-View1 script. It it outputs error, try creating a new query directly on the database by right-clicking on new database and copy the contents of Database-user into your new query. Then do the same for Database-View2 and Database-user.
 In the end, you should end up with database diagram looking like this:  
 
