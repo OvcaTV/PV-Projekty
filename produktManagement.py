@@ -4,7 +4,8 @@ class Product(DAO):
 
     def get_all(self):
         self.cursor.execute(
-            "SELECT ProductId, Name, Weight, IsActive FROM Product"
+            """SELECT ProductId, Name, Weight, IsActive FROM Product
+            WHERE IsActive = 1"""
         )
         return self.cursor.fetchall()
 

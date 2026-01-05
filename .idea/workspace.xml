@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c3d532a9-ab03-4a3b-b26b-a45bc19cf618" name="Changes" comment="aktualizace Pristroje.py aby korespondovalo s nove aktualizovanou databazi">
+      <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/objednaniProdukce.py" beforeDir="false" afterPath="$PROJECT_DIR$/objednaniProdukce.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orderMachine.py" beforeDir="false" afterPath="$PROJECT_DIR$/orderMachine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productionOverview.py" beforeDir="false" afterPath="$PROJECT_DIR$/productionOverviewVW.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productionTransaction.py" beforeDir="false" afterPath="$PROJECT_DIR$/productionStart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produktManagement.py" beforeDir="false" afterPath="$PROJECT_DIR$/produktManagement.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Projekt2" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;OvcaTV&quot;
+  }
+}</component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="Projekt" />
+      </list>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="aedc0188-85e0-49bb-b5e9-b2dea608259e" />
+        <option name="url" value="https://github.com/OvcaTV/PV-Projekt.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="35qPbf96NgO2DT19zjrA53X7uQI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;RDBMS-projekt&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hryma/Documents/Skola/_SkolaJecna/PV-Mandik/databazePriprava&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hryma\Documents\Skola\_SkolaJecna\PV-Mandik\PV-Projekt\UI" />
+      <recent name="C:\Users\hryma\Documents\Skola\_SkolaJecna\PV-Mandik\PV-Projekt\FileDeleter" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3d532a9-ab03-4a3b-b26b-a45bc19cf618" name="Changes" comment="" />
+      <created>1763834702592</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763834702592</updated>
+      <workItem from="1763834712028" duration="3196000" />
+      <workItem from="1763842501301" duration="5869000" />
+      <workItem from="1763897871030" duration="20695000" />
+      <workItem from="1764177360391" duration="1249000" />
+      <workItem from="1764362644312" duration="2820000" />
+      <workItem from="1764447022442" duration="3787000" />
+      <workItem from="1764546590876" duration="271000" />
+      <workItem from="1765387369127" duration="610000" />
+      <workItem from="1765483485142" duration="672000" />
+      <workItem from="1765491971082" duration="4547000" />
+      <workItem from="1765546864412" duration="4421000" />
+      <workItem from="1765620736610" duration="2541000" />
+      <workItem from="1765713633504" duration="1791000" />
+      <workItem from="1765743692639" duration="2700000" />
+      <workItem from="1765760096192" duration="2000" />
+      <workItem from="1766318068803" duration="1799000" />
+      <workItem from="1766358807428" duration="34000" />
+      <workItem from="1766834964623" duration="3199000" />
+      <workItem from="1766936598907" duration="1663000" />
+      <workItem from="1767219234579" duration="4945000" />
+      <workItem from="1767271258239" duration="1188000" />
+      <workItem from="1767361521258" duration="7643000" />
+      <workItem from="1767446659538" duration="23934000" />
+      <workItem from="1767522869708" duration="24366000" />
+    </task>
+    <task id="LOCAL-00001" summary="Vytvoreni">
+      <option name="closed" value="true" />
+      <created>1763845525798</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1763845525798</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Svetlo o svitivosti 3.5 chciple svetlusky">
+      <option name="closed" value="true" />
+      <created>1763859512719</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763859512719</updated>
+    </task>
+    <task id="LOCAL-00003" summary="final program (i guess)">
+      <option name="closed" value="true" />
+      <created>1763936284823</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763936284823</updated>
+    </task>
+    <task id="LOCAL-00004" summary="small tweaks">
+      <option name="closed" value="true" />
+      <created>1763943718871</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1763943718871</updated>
+    </task>
+    <task id="LOCAL-00005" summary="jsem hloupy a nahral jsem projekt na spatny repositar">
+      <option name="closed" value="true" />
+      <created>1764362725907</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1764362725907</updated>
+    </task>
+    <task id="LOCAL-00006" summary="jsem hloupy a nahral jsem projekt na spatny repositar">
+      <option name="closed" value="true" />
+      <created>1764362826806</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1764362826806</updated>
+    </task>
+    <task id="LOCAL-00007" summary="pridani moznosti zadat cestu k slozce prohledavane slozce">
+      <option name="closed" value="true" />
+      <created>1764373531926</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1764373531926</updated>
+    </task>
+    <task id="LOCAL-00008" summary="pridani moznosti zadat jestli chci hledane slozky smazat">
+      <option name="closed" value="true" />
+      <created>1764453493449</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1764453493449</updated>
+    </task>
+    <task id="LOCAL-00009" summary="pridani moznosti zadat jestli chci hledane slozky smazat">
+      <option name="closed" value="true" />
+      <created>1764453729621</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1764453729621</updated>
+    </task>
+    <task id="LOCAL-00010" summary="logovani :D">
+      <option name="closed" value="true" />
+      <created>1765498420304</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1765498420304</updated>
+    </task>
+    <task id="LOCAL-00011" summary="logovani :D">
+      <option name="closed" value="true" />
+      <created>1765498546318</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1765498546318</updated>
+    </task>
+    <task id="LOCAL-00012" summary="small change">
+      <option name="closed" value="true" />
+      <created>1765498881175</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1765498881175</updated>
+    </task>
+    <task id="LOCAL-00013" summary="vertiffiication of user wanting to delete folders">
+      <option name="closed" value="true" />
+      <created>1765580725672</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1765580725672</updated>
+    </task>
+    <task id="LOCAL-00014" summary="rdbms project">
+      <option name="closed" value="true" />
+      <created>1766358834999</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1766358834999</updated>
+    </task>
+    <task id="LOCAL-00015" summary="pradani zakladnich funkci">
+      <option name="closed" value="true" />
+      <created>1766857279758</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1766857279758</updated>
+    </task>
+    <task id="LOCAL-00016" summary="vytvoreni zakladni sdilene logiky dao">
+      <option name="closed" value="true" />
+      <created>1766968091731</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1766968091731</updated>
+    </task>
+    <task id="LOCAL-00017" summary="stastny novy rok 11111101010">
+      <option name="closed" value="true" />
+      <created>1767227082129</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1767227082129</updated>
+    </task>
+    <task id="LOCAL-00018" summary="stastny novy rok 11111101010 2.0 😘">
+      <option name="closed" value="true" />
+      <created>1767227227961</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1767227227961</updated>
+    </task>
+    <task id="LOCAL-00019" summary="pridani transakce,1 view, prace s m:n tabulkou">
+      <option name="closed" value="true" />
+      <created>1767406252148</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1767406252148</updated>
+    </task>
+    <task id="LOCAL-00020" summary="aktualizace Pristroje.py aby korespondovalo s nove aktualizovanou databazi">
+      <option name="closed" value="true" />
+      <created>1767553870292</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1767553870292</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Vytvoreni" />
+    <MESSAGE value="Svetlo o svitivosti 3.5 chciple svetlusky" />
+    <MESSAGE value="final program (i guess)" />
+    <MESSAGE value="small tweaks" />
+    <MESSAGE value="jsem hloupy a nahral jsem projekt na spatny repositar" />
+    <MESSAGE value="pridani moznosti zadat cestu k slozce prohledavane slozce" />
+    <MESSAGE value="pridani moznosti zadat jestli chci hledane slozky smazat" />
+    <MESSAGE value="logovani :D" />
+    <MESSAGE value="small change" />
+    <MESSAGE value="vertiffiication of user wanting to delete folders" />
+    <MESSAGE value="rdbms project" />
+    <MESSAGE value="pradani zakladnich funkci" />
+    <MESSAGE value="vytvoreni zakladni sdilene logiky dao" />
+    <MESSAGE value="stastny novy rok 11111101010" />
+    <MESSAGE value="stastny novy rok 11111101010 2.0 " />
+    <MESSAGE value="pridani transakce,1 view, prace s m:n tabulkou" />
+    <MESSAGE value="aktualizace Pristroje.py aby korespondovalo s nove aktualizovanou databazi" />
+    <option name="LAST_COMMIT_MESSAGE" value="aktualizace Pristroje.py aby korespondovalo s nove aktualizovanou databazi" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PV_Projekt$produktManagement.coverage" NAME="produktManagement Coverage Results" MODIFIED="1767481541044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PV_Projekt$config.coverage" NAME="config Coverage Results" MODIFIED="1767567750315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PV_Projekt$orderMachine.coverage" NAME="orderMachine Coverage Results" MODIFIED="1767571848672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PV_Projekt$main.coverage" NAME="main Coverage Results" MODIFIED="1767577454466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PV_Projekt$login.coverage" NAME="login Coverage Results" MODIFIED="1767571503697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PV_Projekt$productionStart.coverage" NAME="productionStart Coverage Results" MODIFIED="1767564072215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PV_Projekt$tkinterUI.coverage" NAME="tkinterUI Coverage Results" MODIFIED="1767571806295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

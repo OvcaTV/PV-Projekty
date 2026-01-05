@@ -26,10 +26,7 @@ class OrderMachineDAO(DAO):
     def get_machines_for_order(self, order_id: int):
         self.cursor.execute(
             """
-            SELECT
-                m.MachineId,
-                m.Name,
-                mt.Name AS MachineType
+            SELECT m.MachineId, m.Name, mt.Name AS MachineType
             FROM OrderMachine om
             JOIN Machine m ON om.MachineId = m.MachineId
             JOIN MachineType mt ON m.MachineTypeId = mt.MachineTypeId
@@ -42,10 +39,7 @@ class OrderMachineDAO(DAO):
     def get_orders_for_machine(self, machine_id: int):
         self.cursor.execute(
             """
-            SELECT
-                po.OrderId,
-                p.Name AS Product,
-                po.Quantity
+            SELECT po.OrderId,p.Name AS Product,po.Quantity
             FROM OrderMachine om
             JOIN ProductionOrder po ON om.OrderId = po.OrderId
             JOIN Product p ON po.ProductId = p.ProductId

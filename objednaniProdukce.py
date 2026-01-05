@@ -23,8 +23,27 @@ class ProductionOrder(DAO):
         self.cursor.execute(
             """
             INSERT INTO ProductionOrder (ProductId, Quantity, StatusId)
-            VALUES (?, ?, 0)
+            VALUES (?, ?, 2)
             """,
             product_id, quantity
         )
+        self.connect.commit()
+
+    def delete(self, order_id):
+        self.cursor.execute(
+            """
+            DELETE FROM OrderMachine
+            WHERE OrderId = ?
+            """,
+            order_id
+        )
+
+        self.cursor.execute(
+            """
+            DELETE FROM ProductionOrder
+            WHERE OrderId = ?
+            """,
+            order_id
+        )
+
         self.connect.commit()

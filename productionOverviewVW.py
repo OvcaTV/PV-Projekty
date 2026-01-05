@@ -1,7 +1,7 @@
 from dao import DAO
 
 
-class ProductionOverviewViewDAO(DAO):
+class ProductionOverviewVW(DAO):
 
     def get_all(self):
         self.cursor.execute(
@@ -13,7 +13,7 @@ class ProductionOverviewViewDAO(DAO):
                 Status,
                 StartTime,
                 EndTime
-            FROM vw_ProductionOverview
+            FROM ProductionOverview
             """
         )
         return self.cursor.fetchall()
@@ -28,7 +28,7 @@ class ProductionOverviewViewDAO(DAO):
                 Status,
                 StartTime,
                 EndTime
-            FROM vw_ProductionOverview
+            FROM ProductionOverview
             WHERE Status = ?
             """,
             status_name

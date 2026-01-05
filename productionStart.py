@@ -7,13 +7,6 @@ class ProductionService:
         self.cursor = self.connection.cursor()
 
     def start_production(self, order_id: int, machine_ids: list[int]):
-        """
-        Spustí výrobu:
-        - nastaví zakázku na Running
-        - obsadí stroje
-        - vytvoří vazby OrderMachine
-        Vše v jedné transakci
-        """
 
         try:
             self.connection.autocommit = False
