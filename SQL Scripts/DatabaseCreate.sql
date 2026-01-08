@@ -1,4 +1,6 @@
 create database PythonEvidence;
+go
+	
 use PythonEvidence
 
 CREATE TABLE OrderStatus (
