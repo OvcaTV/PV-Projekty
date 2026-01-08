@@ -1,4 +1,6 @@
 # A hitchhiker's guide to this project's instalation  
+
+## 0. Download the whole project into .zip under Code and Download ZIP. After downloading it, unzip it.  
   
 ## 1. Create database in Microsoft SQL Server Management Studio  
 You should start by creating database from files in SQL Scripts folder. There you should start with
