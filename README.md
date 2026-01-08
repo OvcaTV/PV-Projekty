@@ -1,6 +1,9 @@
 # A hitchhiker's guide to this project's instalation  
 
 ## 0. Download the whole project into .zip under Code and Download ZIP. After downloading it, unzip it.  
+  <img width="929" height="64" alt="image" src="https://github.com/user-attachments/assets/a46c1871-47fd-481b-829d-becae68b4f1b" />  
+  <img width="390" height="295" alt="image" src="https://github.com/user-attachments/assets/a6e95ff5-98f3-48a5-8e1b-3623c92e206f" />
+
   
 ## 1. Create database in Microsoft SQL Server Management Studio  
 You should start by creating database from files in SQL Scripts folder. There you should start with
