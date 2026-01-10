@@ -1,5 +1,9 @@
---create database PythonEvidence;
-use PythonEvidence
+create database PythonEvidence;
+go
+
+use PythonEvidence;
+go;
+
 
 CREATE TABLE OrderStatus (
     StatusId INT PRIMARY KEY,

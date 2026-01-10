@@ -1,3 +1,7 @@
+use PythonEvidence;
+go;
+
+
 INSERT INTO OrderStatus (StatusId, Name) VALUES
 (0, 'New'),
 (1, 'Running'),

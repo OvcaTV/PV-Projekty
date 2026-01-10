@@ -1,3 +1,7 @@
+use PythonEvidence;
+go;
+
+
 CREATE view MachineUsage
 AS
 SELECT m.MachineId, m.Name AS MachineName, mt.Name AS MachineType, po.OrderId, p.Name AS ProductName, os.Name AS OrderStatus
