@@ -1,23 +1,19 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 
-from productionEnd import ProductionEnd
-from productionOverviewVW import ProductionOverviewVW
-from machineUsageVW import MachineUsageVW
-from Pristroje import MachineDAO
-from produktManagement import Product
-from objednaniProdukce import ProductionOrder
-from report import ReportsDAO
+from DAO.productionEnd import ProductionEnd
+from DAO.productionOverviewVW import ProductionOverviewVW
+from DAO.machineUsageVW import MachineUsageVW
+from DAO.Pristroje import MachineDAO
+from DAO.produktManagement import Product
+from DAO.objednaniProdukce import ProductionOrder
+from DAO.report import ReportsDAO
 
 
 class ProductionApp(tk.Tk):
     def __init__(self, logged_user=None):
         super().__init__()
-
-        if logged_user is None:
-            self.logged_user = {'username': 'guest'}
-        else:
-            self.logged_user = logged_user
+        self.logged_user = logged_user
 
         self.title("Evidence výroby")
         self.geometry("1500x650")
@@ -53,7 +49,7 @@ class ProductionApp(tk.Tk):
     def logout(self):
         if messagebox.askyesno("Odhlášení", "Opravdu se chceš odhlásit?"):
             self.destroy()
-            from login import show_login
+            from UI.login import show_login
             logged_user = show_login()
             if logged_user:
                 app = ProductionApp(logged_user)
@@ -837,7 +833,7 @@ class ProductionApp(tk.Tk):
             messagebox.showerror("Chyba", str(e))
 
 if __name__ == "__main__":
-    from login import show_login
+    from UI.login import show_login
 
     logged_user = show_login()
 

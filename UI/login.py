@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
-from user import UserDAO
+from DAO.user import UserDAO
 
 
 class LoginDialog(tk.Tk):
