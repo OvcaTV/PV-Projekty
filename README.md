@@ -12,7 +12,7 @@ In the end, you should end up with database diagram looking like this:
 
   
 ## 2. Open config.ini file
-First you must change the server name in config.ini file to the server name of your Server Management Studio  
+First you must change the server name in config.ini file to the server name of your Server Management Studio (it can be something like PCXXX with the XXX standing for numbers next to it or something simmilar to that)  
 
 <img width="315" height="151" alt="obrazek" src="https://github.com/user-attachments/assets/51672a5a-490c-41bc-adef-a36815b67abc" />  
 
