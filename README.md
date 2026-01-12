@@ -24,7 +24,7 @@ First you must change the server name in config.ini file to the server name of y
    https://github.com/OvcaTV/PV-Projekty/releases/tag/Release and downloading the release which contains .exe file  
 3. After running the project, you'll encounter login page. Don't be shy and register yourself if it's your first time using this project. But i must warn you, that the password must be equal to or longer than 6 letters
 4. Login with the same credentials you used while registering
-5. You're inside and you can do whatever you want. Want to create new product? Create it in product. Want to create new Order? Select the product and amount of the product you want to create. Want to create new machine? You can create new machine in the machine tab. Want to start new order? Select the order you created in the combobox and then machine you want to use and its starts getting produced. Want to stop the order? Stop it. The fantasy's the only limit
+5. You're inside and you can do whatever you want. Want to create new product? Create it in product. Want to create new Order? Select the product and amount of the product you want to create. Want to create new machine? You can create new machine in the machine tab. Want to start new order? Select the order you created in the combobox and then machine you want to use and its starts getting produced. Want to stop the order? Stop it. Fantasy's the only limit
 
 Also if you want to use Windows authentication and be as admin you can just change the trusted connection to yes  
 <img width="315" height="151" alt="obrazek" src="https://github.com/user-attachments/assets/66e993dd-bd33-46a5-9384-615b12acd918" />
