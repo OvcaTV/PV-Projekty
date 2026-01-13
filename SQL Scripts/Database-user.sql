@@ -1,5 +1,5 @@
 use PythonEvidence;
-go;
+go
 
 CREATE LOGIN TestUser WITH PASSWORD = 'TestUser123!';
 CREATE USER TestUser FOR LOGIN TestUser;

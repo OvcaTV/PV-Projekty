@@ -2,7 +2,7 @@ create database PythonEvidence;
 go
 
 use PythonEvidence;
-go;
+go
 
 
 CREATE TABLE OrderStatus (

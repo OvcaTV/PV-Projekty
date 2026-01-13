@@ -1,5 +1,5 @@
 use PythonEvidence;
-go;
+go
 
 
 INSERT INTO OrderStatus (StatusId, Name) VALUES

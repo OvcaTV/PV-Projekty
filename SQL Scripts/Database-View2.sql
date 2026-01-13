@@ -1,5 +1,5 @@
 use PythonEvidence;
-go;
+go
 
 
 CREATE view MachineUsage
